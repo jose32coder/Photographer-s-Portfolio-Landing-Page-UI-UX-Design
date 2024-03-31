@@ -5,7 +5,7 @@ const MenuResponsive = ({onClose }) => {
     return (
         <>
             <div className={`fixed h-full w-full bg-black z-40`}>
-                <nav className="h-full w-full bg-black relative">
+                <nav className="h-full w-full relative">
 
                     <ul className="grid justify-center content-center space-y-12 text-center h-full">
                         <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center" onClick={onClose}>

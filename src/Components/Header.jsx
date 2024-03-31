@@ -13,10 +13,10 @@ const Header = () => {
             <header className="absolute top-8 bg-transparent flex w-full h-10 content-center justify-between px-10 z-50">
                 <nav className="">
                     <ul className="hidden md:flex space-x-10">
-                        <li><a href="aboutMe">About Me</a></li>
-                        <li><a href="gallery">Gallery</a></li>
-                        <li><a href="projects">Projects</a></li>
-                        <li><a href="contact">Contact</a></li>
+                        <li><a href="aboutMe">Sobre mí</a></li>
+                        <li><a href="gallery">Galería</a></li>
+                        <li><a href="projects">Proyectos</a></li>
+                        <li><a href="contact">Contactos</a></li>
                     </ul>
                     <a href="#" className={`md:hidden uppercase ${menuVisible ? 'text-gray-200' : 'text-black'} tracking-wide text-xl z-50`}>Vyshnevets</a>
                 </nav>
