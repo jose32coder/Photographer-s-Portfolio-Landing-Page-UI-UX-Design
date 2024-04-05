@@ -3,9 +3,9 @@
 const Footer = () =>{
     return(
         <>
-             <footer id="contact" className="grid md:grid-cols-2 gap-4 w-full degrade md:bg-black sm:h-96">
-                <div className="grid grid-cols-1 p-10 content-center bg-black text-center w-full md:text-start md:justify-between space-y-8 order-2 md:order-1 text-gray-200">
-                    <h2 className="uppercase text-gray-200 text-xl">Zoreslava Vyshnevets</h2>
+             <footer id="contact" className="grid md:grid-cols-2 gap-4 w-full bg-custom-gray sm:bg-custom-gray md:bg-black md:p-10">
+                <div className="grid grid-cols-1 content-center bg-black text-center md:text-start md:justify-between space-y-8 order-2 md:order-1 text-gray-200 pb-10 pt-5">
+                    <h2 className="uppercase text-gray-200 text-xl mt-5">Zoreslava Vyshnevets</h2>
                     <ul className="text-sm space-y-2">
                         <li><a href="#aboutMe">Sobre mí</a></li>
                         <li><a href="#gallery">Galería</a></li>
@@ -52,29 +52,27 @@ const Footer = () =>{
                         <span className="text-sm order-1 md:order-2"><a href="#">Politicas de privacidad.</a></span>
                     </div>
                 </div>
-                <div className="space-y-2 text-center order-1 md:order-2 bg-transparent p-10">
-                    <h2 className="uppercase text-2xl text-center md:hidden text-gray-200 tracking-wider mb-5">Contact</h2>
+                <div className="text-center order-1 md:order-2 sm:degrade bg-transparent h-full w-full py-10 px-5 lg:p-10">
+                    <h2 className="uppercase text-2xl text-center md:hidden text-gray-200 tracking-wider mb-5">Contacto</h2>
                     <h2 className="text-gray-200 text-sm">¿Alguna pregunta? Déjame una petición y me pondré en contacto contigo.</h2>
-                    <div className="container mx-auto sm:py-4 space-y-3 text-gray-200 sm:space-y-0">
+                    <div className="container mx-auto bg sm:py-4 space-y-3 text-gray-200 sm:space-y-0">
                         <div className="sm:flex sm:mb-3 mt-10 sm:mt-3 space-y-3 sm:space-y-0">
                             <input
                             type="text"
-                            placeholder="e-mail"
+                            placeholder="correo"
                             className="w-full sm:w-1/2 p-2 sm:mr-2 border rounded bg-transparent border-gray-300 h-10"
                             />
                             <input
                             type="text"
-                            placeholder="name"
+                            placeholder="nombre"
                             className="w-full sm:w-1/2 p-2 sm:ml-2 border rounded bg-transparent border-gray-300 h-10"
                             />
                         </div>
                         <textarea
-                            placeholder="message"
+                            placeholder="mensaje"
                             className="w-full p-2 border rounded border-gray-300 bg-transparent h-32"
                         ></textarea>
-                        <div className="relative flex w-full justify-center">
-                            <button className="bg-white absolute rounded-sm w-full sm:w-56 h-10 text-black top-2 cursor-pointer">contactame</button>
-                        </div>
+                        <button className="bg-white rounded-sm w-full sm:w-56 h-10 text-black my-10 cursor-pointer">contactame</button>
 
                         
                     </div>

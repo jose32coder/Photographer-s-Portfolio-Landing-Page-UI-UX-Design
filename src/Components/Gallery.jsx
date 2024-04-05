@@ -4,7 +4,7 @@ const Gallery = () =>{
     
     return(
         <>
-            <section id="gallery" className="degrade galleryGrid py-10 px-4 md:p-10">
+            <section id="gallery" className="bg-custom-gray galleryGrid py-10 px-4 md:p-10">
                 <h2 className="uppercase text-2xl text-center md:text-start text-gray-200 tracking-wider mb-8">Galería</h2>
                 
                 <div class="masonry">

@@ -1,7 +1,7 @@
 const Projects = () => {
     return(
         <>
-            <section id="projects" className="p-10 degrade">
+            <section id="projects" className="py-10 px-5 md:p-10 bg-custom-gray">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-200">
                     <div>
                     <h2 className="text-center md:text-start uppercase text-2xl mb-5 tracking-wider">Proyectos</h2>

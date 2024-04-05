@@ -9,18 +9,18 @@ const MenuResponsive = ({onClose }) => {
 
                     <ul className="grid justify-center content-center space-y-12 text-center h-full">
                         <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center" onClick={onClose}>
-                            <a href="#aboutMe" className="text-gray-200 active:text-black active:bg-gray-200 text-xl">About Me</a>
+                            <a href="#aboutMe" className="text-gray-200 active:text-black active:bg-gray-200 text-xl">Sobre mí</a>
                         </li>
 
                         <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center text-xl" onClick={onClose}>
-                            <a href="#gallery" className="text-gray-200">Gallery</a>
+                            <a href="#gallery" className="text-gray-200">Galería</a>
                         </li>
 
                         <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center text-xl" onClick={onClose}>
-                            <a href="#projects" className="text-gray-200">Projects</a>
+                            <a href="#projects" className="text-gray-200">Proyectos</a>
                         </li>
 
-                        <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center text-xl" onClick={onClose}><a href="#contact" className="text-gray-200">Contact</a>
+                        <li className="bg-transparent border-2 border-white w-60 h-14 grid content-center text-xl" onClick={onClose}><a href="#contact" className="text-gray-200">Contactos</a>
                         </li>
                         <li className="flex justify-between text-gray-200 gap-x-10">
                             <a href="" className="text-5xl" onClick={onClose}>
